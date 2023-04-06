@@ -9,8 +9,7 @@ import Hotel from "./pages/hotel/Hotel";
 import List from "./pages/list/List";
 import Navbar from "./components/navbar/Navbar"
 import Footer from "./components/footer/Footer"
-
-
+import Login from "./pages/login/Login.jsx"
 
 
 
@@ -43,6 +42,10 @@ function App() {
         {
           path: "/hotels/:id",
           element: <Hotel/>
+        },
+        {
+          path: "/login",
+          element: <Login/>
         }
       ]
    /* },
